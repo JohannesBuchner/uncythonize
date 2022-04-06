@@ -41,7 +41,7 @@ setup(
         'Programming Language :: Python :: 3.7',
         'Programming Language :: Python :: 3.8',
     ],
-    description="Static code analyser for Python3 function calls, string interpolation and variable shadowing",
+    description="Strips cython code (.pyx files) down to python code for code analysis tools.",
     install_requires=requirements,
     license="GPL-3",
     long_description=readme + '\n\n' + history,
