@@ -3,7 +3,8 @@ uncythonize
 ============
 
 This script strips cython code (.pyx files) down to python code, by
-replacing cython cdef with def and stripping away type annotations.
+replacing cython declarations (cdef) with python equivalents
+and stripping away type annotations.
 
 Limitations
 --------------
@@ -45,7 +46,6 @@ TODO
 ----------
 
 * setup pypi package
-* add a few test examples
 * setup CI testing
 
 Licence
