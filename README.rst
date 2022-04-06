@@ -16,8 +16,17 @@ Python 3.5 and above is required.
 
 UTF-8 input is required.
 
+Installation
+--------------
+
+::
+
+	$ pip install uncythonize
+
 Usage
 ---------
+
+::
 
 	$ uncythonize.py filename.pyx
 
@@ -45,7 +54,6 @@ example scripts as test cases.
 TODO
 ----------
 
-* setup pypi package
 * setup CI testing
 
 Licence
